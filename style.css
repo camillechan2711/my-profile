@@ -1,0 +1,79 @@
+body{
+	font-family: 'Inconsolata', monospace;
+	font-size:22px;
+	background-color:#E6D0C2;
+	color:black;
+	line-height:2;
+}
+
+h1{
+	font-size:45px;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	margin-top:20px;
+}
+
+h2{
+	font-size:40px;
+	font-family: 'Rokkitt', serif;
+	font-weight: 500;
+	margin:10px 0px;
+}
+
+
+img{
+	width: 150px;
+}
+
+.container{
+	margin:20px auto;
+	width:700px;
+
+}
+
+.card-salmon{
+	background-color:#F7F0E6;
+	border-radius:5px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	padding:20px;
+	text-align:center;
+	margin:10px 0px;
+
+}
+
+.img-circle{
+border-radius: 50%; 
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline li{
+	display:inline;
+	padding:0px 20px ;
+}
+
+.iconify{
+	color:#F8B28E;
+	font-size:50px;
+	font-style:none;
+	padding-left:0px;
+}
+
+.iconify:hover{
+	color:#C16D87;
+}
+
+
+@media(max-width: 720px){
+	.container{
+		width:500px;
+	}
+}
+
+@media(max-width: 540px){
+	.container{
+		width:300px;
+	}
+}
